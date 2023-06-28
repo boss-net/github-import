@@ -1,0 +1,34 @@
+{
+  "name": "@boss-net/github-import",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boss-net/github-import.git"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint lib/*.js cli/*.js"
+  },
+  "bin": {
+    "github-import": "./cli/index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.35.0",
+    "chalk": "^2.4.2",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.8",
+    "uuid-validate": "^0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "version": "1.3.2"
+}
