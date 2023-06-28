@@ -57,7 +57,7 @@ github-import --orgId=<orgId> --integrationId=<integrationId> --githubToken=<git
 
 We recommend setting up a cron job to run this script daily at most.
 
-- You can retrieve your `orgId` from your org settings page on [Boss-Net](https://boss-net.github.io) or via the [Boss-Net API](https://boss-net.docs.apiary.io/#reference/organisations/the-boss-net-organisation-for-a-request/list-all-the-organisations-a-user-belongs-to).
+- You can retrieve your `orgId` from your org settings page on [Boss-Net](https://boss-net.github.io) or via the [Boss-Net API](https://boss-net.apiary.io).
 - The `integrationId` is available via the integration settings page.
 - You can generate a token for access to the GitHub API from your [Personal access tokens](https://github.com/settings/tokens) page.
 - The Github URL is only required for Github Server instances and is the base URL that your GitHub Server is available at.
